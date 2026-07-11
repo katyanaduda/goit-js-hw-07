@@ -1,4 +1,4 @@
-function text field() {
+function textField() {
     const $input = document.querySelector('input#name-input');
     const $output = document.querySelector('span#name-output');
 
@@ -10,4 +10,4 @@ function text field() {
     $input.addEventListener('input', (e) => handleInput(e))
 }
 
-text field();
+textField();
